@@ -29,6 +29,7 @@ nav ul li{
     color: #777;
     cursor: pointer;
     position: relative;
+    z-index: 2;
 }
 
 nav ul li::after{
@@ -38,7 +39,8 @@ nav ul li::after{
     height: 100%;
     border-radius: 30px;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%,-50%);
+    z-index: -1;
 }
