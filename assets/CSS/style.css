@@ -19,3 +19,8 @@ nav{
     padding: 10px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,4);
 }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
